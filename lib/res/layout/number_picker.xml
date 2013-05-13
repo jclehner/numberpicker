@@ -28,7 +28,8 @@
     <EditText android:id="@+id/numpicker_input"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        style="@style/NumberPickerInputText" />
+        style="@style/NumberPickerInputText"
+        android:inputType="none" />
 
     <com.michaelnovakjr.numberpicker.NumberPickerButton android:id="@+id/decrement"
         android:layout_width="fill_parent"

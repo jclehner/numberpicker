@@ -17,10 +17,6 @@
  */
  -->
 <resources>
-    <style name="NumberPickerInputText" parent="@android:style/TextAppearance.Large.Inverse">
-        <item name="android:textColor">@android:color/primary_text_light</item>
-        <item name="android:textSize">30sp</item>
-    </style>
 
     <style name="NumberPickerUpButton" parent="@android:style/Widget.ImageButton">
         <item name="android:background">@drawable/numberpicker_up_btn</item>
@@ -35,5 +31,7 @@
         <item name="android:gravity">center</item>
         <item name="android:singleLine">true</item>
         <item name="android:background">@drawable/numberpicker_input</item>
+        <item name="android:textColor">@android:color/primary_text_light</item>
+        <item name="android:textSize">30sp</item>
     </style>
 </resources>

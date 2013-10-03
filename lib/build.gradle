@@ -1,5 +1,7 @@
 apply plugin: 'android-library'
 
+archivesBaseName = "NumberPicker"
+
 buildscript {
     repositories {
         mavenCentral()
